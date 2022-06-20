@@ -1,18 +1,25 @@
-body {
-  font-family: sans-serif;
-  background-color: beige;
-}
-button {
-  background-color: aquamarine;
-  padding: 16px;
-  border: none;
-  box-shadow: 5px 10px black;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.card {
-  width: 200px;
-  height: 200px;
-  border-radius: 12px;
-  background-color: rgb(238, 119, 119);
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
+}
+
+.logo {
+  padding: 8px;
+}
+
+.cta {
+  padding: 5px 10px;
+  background-color: beige;
+  border: none;
 }
