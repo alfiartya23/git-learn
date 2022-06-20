@@ -50,6 +50,7 @@ body {
   background-color: white;
   color: tomato;
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .cta--register {
@@ -59,4 +60,35 @@ body {
   font-size: 1em;
   background-color: tomato;
   color: white;
+  cursor: pointer;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  justify-content: center;
+  /* background-color: tomato; */
+  margin: auto;
+  padding: 100px 0;
+}
+
+.hero-title {
+  /* background-color: tomato; */
+  padding: 1.5rem 2rem;
+}
+
+.hero-title > h2 {
+  margin-bottom: 0.5em;
+}
+
+.cta-hero {
+  border: none;
+  background-color: tomato;
+  padding: 15px 32px;
+  margin-top: 2rem;
+  border-radius: 20px;
+  font-size: 1em;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
 }
